@@ -5,9 +5,14 @@ body{
 }
 #mainNav {
     background-color: rgb(78,43,100);
+
 }
-#navbarResponsive{
-    direction: ltr;
+#searchbox{
+    margin-left: 5px;
+}
+#searchbutton{
+    color: #ececf6;
+    border-color: #ececf6;
 }
 
 @media screen and (max-width:575.98px){
