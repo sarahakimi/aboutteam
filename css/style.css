@@ -5,6 +5,12 @@ body{
 
 }
 
+@font-face {
+    font-family: artfont;
+    src: url('font/fontawesome-webfont.ttf');
+
+}
+
 #mainNav {
     background-color: rgb(78,43,100);
 
@@ -18,7 +24,9 @@ body{
 }
 #headerImg{
     max-width: 100%;
-    /*max-height: 50px;*/
+    max-height: 1000px;
+    height:500px;
+
     margin: 0 0 0 0;
 }
 
