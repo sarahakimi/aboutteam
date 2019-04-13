@@ -34,6 +34,15 @@ body{
     color: rgb(15,13,62);
     margin-top: 0px;
 }
+
+#contactScroll{
+    overflow-x: scroll;
+
+}
+#contactScroll .col-4{
+    background-color: snow;
+    height: 250px;
+}
 @media screen and (max-width:575.98px){
 
 }
