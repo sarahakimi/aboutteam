@@ -15,6 +15,14 @@ body{
     background-color: rgb(78,43,100);
 
 }
+
+#navbarResponsive{
+    transition: 0.5s;
+}
+
+#pageTopNav{
+    transition: 0.5s;
+}
 #searchbox{
     margin-left: 5px;
 }
@@ -35,13 +43,36 @@ body{
     margin-top: 0px;
 }
 
-#contactScroll{
+#peopleScroll{
     overflow-x: scroll;
 
 }
-#contactScroll .col-4{
+#peopleScroll .col-4{
     background-color: snow;
     height: 250px;
+}
+
+#sendMessageButton{
+    background-color:rgb(78,43,100) ;
+    color: white;
+    transition: all 0.5s;
+}
+
+#sendMessageButton:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+
+#sendMessageButton:hover span {
+    padding-right: 25px;
+}
+
+#sendMessageButton span{
+    transition: 0.5s;
+}
+
+#sendMessageButton span:after{
+    transition: 0.5s;
 }
 @media screen and (max-width:575.98px){
 
