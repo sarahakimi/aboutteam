@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatable" content="IE=edge">
+    <meta content="IE=edge" http-equiv="X-UA-Compatable">
     <title>project_test</title>
-    <link rel="stylesheet" href="css\bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css\bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg  fixed-top text-uppercase" id="mainNav">
     <div class="container" >
-        <a class="navbar-brand js-scroll-trigger" href="#page-top" style=" color: #f7d6ff"  id="pageTopNav">گروه برنامه نویسی</a>
-        <button class="navbar-toggler navbar-toggler-right  text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color: white">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" id="pageTopNav"  style=" color: #f7d6ff">گروه برنامه نویسی</a>
+        <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right  text-white rounded" data-target="#navbarResponsive" data-toggle="collapse" style="color: white" type="button">
             فهرست
             <i class="fas fa-bars"></i>
         </button>
@@ -31,7 +31,7 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder=" جستحو در وب سایت..." aria-label="Search" id="searchbox">
+                <input aria-label="Search" class="form-control mr-sm-2" id="searchbox" placeholder=" جستحو در وب سایت..." type="search">
                 <button class="btn btn-outline-dark my-2 my-sm-0" id="searchbutton" type="submit">جستجو</button>
             </form>
         </div>
@@ -40,7 +40,7 @@
 
 </nav>
 <header class="masthead text-white text-center" id="page-top">
-    <img class="img-fluid mb-5 d-block mx-auto" src="img/header.jpg" alt="" height="500px">
+    <img alt="" class="img-fluid mb-5 d-block mx-auto" height="500px" src="img/header.jpg">
 
 </header>
 
@@ -78,18 +78,18 @@
         <hr>
         <div class="row">
             <div class="col-lg-8 mx-auto">
-                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls mb-0 pb-2">
 <!--                            <label>نام</label>-->
-                            <input class="form-control" id="name" type="text" placeholder=" نام و نام خانوادگی" required="required" data-validation-required-message="Please enter your name.">
+                            <input class="form-control" data-validation-required-message="Please enter your name." id="name" placeholder=" نام و نام خانوادگی" required="required" type="text">
                             <p class="help-block text-danger"></p>
                         </div>
 
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
 <!--                                <label>آدرس ایمیل</label>-->
-                                <input class="form-control" id="email" type="email" placeholder="آدرس ایمیل" required="required" data-validation-required-message="Please enter your email address.">
+                                <input class="form-control" data-validation-required-message="Please enter your email address." id="email" placeholder="آدرس ایمیل" required="required" type="email">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
 <!--                                <label>Message</label>-->
-                                <textarea class="form-control" id="message" rows="5" placeholder="پیام" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" data-validation-required-message="Please enter a message." id="message" placeholder="پیام" required="required" rows="5"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                         <br>
                         <div id="success"></div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-xl" id="sendMessageButton"><span>فرستادن</span></button>
+                            <button class="btn btn-xl" id="sendMessageButton" type="submit"><span>فرستادن</span></button>
                         </div>
                     </div>
                 </form>
